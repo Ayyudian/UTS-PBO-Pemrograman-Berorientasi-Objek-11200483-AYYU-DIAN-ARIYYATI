@@ -1,0 +1,45 @@
+Soal UTS I
+Buatlah Program dengan bahasa python untuk menampilkan nama dan NIM anda pada halaman notebook ini
+
+In [ ]:
+#Jawab
+print ("Ayyu Dian Ariyyati")
+print ("11200483")
+Ayyu Dian Ariyyati
+11200483
+Soal UTS II
+Kerjakan salah satu dari dua soal berikut (Soal A atau B) sesuai dengan digit terakhir NIM anda.
+
+Jika Digit terakhir NIM anda adalah ganjil atau nol(0) kerjakanlan Soal A berikut ini
+
+Soal A
+
+Bualah aplikasi interaktif dengan pemrograman Python yang menerima input variable dari keyboard untuk mencari luas bangun datar lingkaran.
+
+Dengan tampilan sebagai berikut:
+
+Masukan Diameter : 
+Luas Lingkaran   :
+Jika Digit terakhir NIM anda adalah genap kerjakanlan Soal B berikut ini
+
+Soal B
+
+Bualah aplikasi interaktif dengan pemrograman Python yang menerima input variable dari keyboard untuk mencari keliling bangun datar lingkaran.
+
+Dengan tampilan sebagai berikut:
+
+Masukan Diameter : 
+Keliling Lingkaran   :
+In [ ]:
+#Jawab
+print ("Menghitung Luas Lingkaran")
+a=int(input("Masukkan diameter Lingkaran : "))
+b=int(2)
+pembagian =a/b
+diameter = (pembagian)
+phi = 3.14
+luas =  phi * float(diameter) * float(diameter) 
+print ("Luas Lingkaran adalah",luas)
+Menghitung Luas Lingkaran
+Masukkan diameter Lingkaran : 28
+Luas Lingkaran adalah 615.44
